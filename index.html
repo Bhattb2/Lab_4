@@ -2,7 +2,7 @@
 <html>
 <head>
 
-	  <title>Edit this</title> <!--change this so that I know you're carefully reading the comments on this document. Read all the commented code carefully as some of it includes directions for customization that I expect you to complete.-->
+	  <title>Bhatt_L4</title> 
 
 	  <meta charset="utf-8" />
 	  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" /><!--These settings are ideal for full-screen mobile use-->
@@ -13,6 +13,11 @@
     <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js" integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg==" crossorigin=""></script>
 </head>
 <body>
+
+
+<button onclick="alert('If you give it permission, this web page will access to your location in order to demonstrate how device sensors can interact with web maps.')">Info</button>
+
+<button onclick="onLocationFound(e)">locate</button>
 
 <div id="map"></div>
 <script src="javascript.js"></script>
